@@ -25,13 +25,13 @@ These are the low profile keys. They are difficult to find. Maybe the easiest wa
 where the white stamps of the original keyboard are located. Then mount the PCB instead of the foil. You have to use some washers to correct the height of the mounting tabs. The original keycaps will press the Cherry buttons by the white stamps of the original keyboard.
 Alternatively to filing the edges of the switche, you can mill small edges into the case. I have an NC program for that include, see the TAP file. This modification is minimal and don't interfere with the use of the original keyboard foil in case you want to revert.
 
-![Gehäusemodifikation](SpectrumPlusKeyboard/pictures/Gehäusemodifikation.JPG)
+![Gehäusemodifikation](pictures/Gehäusemodifikation.JPG)
 
 ## Some advice for populating the PCB
 
 In the first PCB revision I only had the very small resistor arrays, which are difficult to solder. In the current revision I added some 0805 resistors instead. Please only mount one of the two possibilities, single resitors OR resistor arrays.
 
-![Resistor arrays](SpectrumPlusKeyboard/pictures/R-Array.jpg)
+![Resistor arrays](pictures/R-Array.jpg)
 
 Beware: there are two types of diodes which are named nearly identical, but they are not the same. Be sure to order the right ones and put them in the right places!
 
