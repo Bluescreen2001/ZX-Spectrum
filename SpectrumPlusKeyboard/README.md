@@ -19,7 +19,7 @@ This variant gives the best typing result, but it is really complicated to put i
 
 ## Easyier: Using Cherry ML switches
 
-![PCB-Front](SpectrumPlusKeyboard/pictures/PCB-Front.JPG)
+![PCB-Front](pictures/PCB-Front.JPG)
 
 These are the low profile keys. They are difficult to find. Maybe the easiest way is to buy an old Cherry low profile keyboard and unsolder the switches. If you want to put this into the original case, you have to file down the edges of the switches a bit, so that they fit into the round shafts 
 where the white stamps of the original keyboard are located. Then mount the PCB instead of the foil. You have to use some washers to correct the height of the mounting tabs. The original keycaps will press the Cherry buttons by the white stamps of the original keyboard.
