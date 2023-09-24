@@ -1,0 +1,144 @@
+#
+# Spectrum Plus Keyboard
+#
+GRID MM
+USE D:\Dokumente\eagle\_lbr\Cherry_MX_v7.0.lbr
+LAYER 20
+
+
+EDIT .brd
+# PCB outline
+WIRE 0 (-9.20  -9.20) (246.70  -9.20) (246.70  85.60) (-9.20 85.60)  (-9.20  -9.20)
+
+MOVE 'SW1'  (   0.00 76.40 ); VALUE 'SW1'  'TRUE VIDEO'    # CAPS SHIFT - 3
+MOVE 'SW2'  (  19.00 76.40 ); VALUE 'SW2'  'INVERSE VIDEO' # CAPS SHIFT - 4
+MOVE 'SW3'  (  38.02 76.40 ); VALUE 'SW3'  '1'
+MOVE 'SW4'  (  57.00 76.40 ); VALUE 'SW4'  '2'
+MOVE 'SW5'  (  76.00 76.40 ); VALUE 'SW5'  '3'
+MOVE 'SW6'  (  95.00 76.40 ); VALUE 'SW6'  '4'
+MOVE 'SW7'  ( 114.00 76.40 ); VALUE 'SW7'  '5'
+MOVE 'SW8'  ( 133.00 76.40 ); VALUE 'SW8'  '6'
+MOVE 'SW9'  ( 152.00 76.40 ); VALUE 'SW9'  '7'
+MOVE 'SW10' ( 171.00 76.40 ); VALUE 'SW10' '8'
+MOVE 'SW11' ( 190.00 76.40 ); VALUE 'SW11' '9'
+MOVE 'SW12' ( 209.00 76.40 ); VALUE 'SW12' '0'
+MOVE 'SW13' ( 232.75 76.40 ); VALUE 'SW13' 'BREAK'         # CAPS SHIFT - SPACE
+
+MOVE 'SW14' (   4.75 57.30 ); VALUE 'SW14' 'DELETE'        # CAPS SHIFT - 0
+MOVE 'SW15' (  28.50 57.30 ); VALUE 'SW15' 'GRAPH'         # CAPS SHIFT - 9
+MOVE 'SW16' (  47.50 57.30 ); VALUE 'SW16' 'Q'
+MOVE 'SW17' (  66.50 57.30 ); VALUE 'SW17' 'W'
+MOVE 'SW18' (  85.50 57.30 ); VALUE 'SW18' 'E'
+MOVE 'SW19' ( 104.50 57.30 ); VALUE 'SW19' 'R'
+MOVE 'SW20' ( 123.50 57.30 ); VALUE 'SW20' 'T'
+MOVE 'SW21' ( 142.50 57.30 ); VALUE 'SW21' 'Y'
+MOVE 'SW22' ( 161.50 57.30 ); VALUE 'SW22' 'U'
+MOVE 'SW23' ( 180.50 57.30 ); VALUE 'SW23' 'I'
+MOVE 'SW24' ( 199.50 57.30 ); VALUE 'SW24' 'O'
+MOVE 'SW25' ( 218.50 57.30 ); VALUE 'SW25' 'P'
+
+MOVE 'SW26' (   4.75 38.20 ); VALUE 'SW26' 'EXTEND MODE'
+MOVE 'SW27' (  30.90 38.20 ); VALUE 'SW27' 'EDIT'          # CAPS SHIFT - 1
+MOVE 'SW28' (  52.30 38.20 ); VALUE 'SW28' 'A'
+MOVE 'SW29' (  71.30 38.20 ); VALUE 'SW29' 'S'
+MOVE 'SW30' (  90.30 38.20 ); VALUE 'SW30' 'D'
+MOVE 'SW31' ( 109.30 38.20 ); VALUE 'SW31' 'F'
+MOVE 'SW32' ( 128.30 38.20 ); VALUE 'SW32' 'G'
+MOVE 'SW33' ( 147.30 38.20 ); VALUE 'SW33' 'H'
+MOVE 'SW34' ( 166.30 38.20 ); VALUE 'SW34' 'J'
+MOVE 'SW35' ( 185.30 38.20 ); VALUE 'SW35' 'K'
+MOVE 'SW36' ( 204.30 38.20 ); VALUE 'SW36' 'L'
+MOVE 'SW37' ( 237.50 47.75 ); VALUE 'SW37' 'ENTER'
+                              
+MOVE 'SW38' (  11.95 19.10 ); VALUE 'SW38' 'CAPS SHIFT'
+MOVE 'SW39' (  42.70 19.10 ); VALUE 'SW39' 'CAPS LOCK'     # CAPS SHIFT - 2
+MOVE 'SW40' (  61.70 19.10 ); VALUE 'SW40' 'Z'
+MOVE 'SW41' (  80.70 19.10 ); VALUE 'SW41' 'X'
+MOVE 'SW42' (  99.70 19.10 ); VALUE 'SW42' 'C'
+MOVE 'SW43' ( 118.70 19.10 ); VALUE 'SW43' 'V'
+MOVE 'SW44' ( 137.70 19.10 ); VALUE 'SW44' 'B'
+MOVE 'SW45' ( 156.70 19.10 ); VALUE 'SW45' 'N'
+MOVE 'SW46' ( 175.70 19.10 ); VALUE 'SW46' 'M'
+MOVE 'SW47' ( 194.70 19.10 ); VALUE 'SW47' '.'             # SYMBOL SHIFT - M
+MOVE 'SW48' ( 225.55 19.10 ); VALUE 'SW48' 'CAPS SHIFT'
+                              
+MOVE 'SW49' (   0.00  0.00 ); VALUE 'SW49' 'SYMBOL SHIFT'
+MOVE 'SW50' (  19.00  0.00 ); VALUE 'SW50' ';'             # SYMBOL SHIFT - O
+MOVE 'SW51' (  38.00  0.00 ); VALUE 'SW51' '\"'            # SYMBOL SHIFT - P
+MOVE 'SW52' (  57.00  0.00 ); VALUE 'SW52' 'LEFT'          # CAPS SHIFT - 5
+MOVE 'SW53' (  76.00  0.00 ); VALUE 'SW53' 'RIGHT'         # CAPS SHIFT - 8
+MOVE 'SW54' ( 128.25  0.00 ); VALUE 'SW54' 'SPACE'
+MOVE 'SW55' ( 180.50  0.00 ); VALUE 'SW55' 'UP'            # CAPS SHIFT - 7
+MOVE 'SW56' ( 199.50  0.00 ); VALUE 'SW56' 'DOWN'          # CAPS SHIFT - 6
+MOVE 'SW57' ( 218.50  0.00 ); VALUE 'SW57' ','             # SYMBOL SHIFT - N
+MOVE 'SW58' ( 237.50  0.00 ); VALUE 'SW58' 'SYMBOL SHIFT'
+
+
+
+
+
+
+
+# Key coordinates
+#  0.00 ; 76.40 ; 'TRUE Video'
+# 19.00 ; 76.40 ; 'INV Video'
+# 38.02 ; 76.40 ; '1'
+# 57.00 ; 76.40 ; '2'
+# 76.00 ; 76.40 ; '3'
+# 95.00 ; 76.40 ; '4'
+#114.00 ; 76.40 ; '5'
+#133.00 ; 76.40 ; '6'
+#152.00 ; 76.40 ; '7'
+#171.00 ; 76.40 ; '8'
+#190.00 ; 76.40 ; '9'
+#209.00 ; 76.40 ; '0'
+#232.75 ; 76.40 ; 'BREAK'
+
+#  4.75 ; 57.30 ; 'DELETE'
+# 28.50 ; 57.30 ; 'GRAPH'
+# 47.50 ; 57.30 ; 'Q'
+# 66.50 ; 57.30 ; 'W'
+# 85.50 ; 57.30 ; 'E'
+#104.50 ; 57.30 ; 'R'
+#123.50 ; 57.30 ; 'T'
+#142.50 ; 57.30 ; 'Y'
+#161.50 ; 57.30 ; 'U'
+#180.50 ; 57.30 ; 'I'
+#199.50 ; 57.30 ; 'O'
+#218.50 ; 57.30 ; 'P'
+
+#  4.75 ; 38.20 ; 'EXTEND MODE'
+# 30.90 ; 38.20 ; 'EDIT'
+# 52.30 ; 38.20 ; 'A'
+# 71.30 ; 38.20 ; 'S'
+# 90.30 ; 38.20 ; 'D'
+#109.30 ; 38.20 ; 'F'
+#128.30 ; 38.20 ; 'G'
+#147.30 ; 38.20 ; 'H'
+#166.30 ; 38.20 ; 'J'
+#185.30 ; 38.20 ; 'K'
+#204.30 ; 38.20 ; 'L'
+#237.50 ; 47.75 ; 'ENTER'
+
+# 11.95 ; 19.10 ; 'CAPS SHIFT'
+# 42.70 ; 19.10 ; 'CAPS LOCK'
+# 61.70 ; 19.10 ; 'Z'
+# 80.70 ; 19.10 ; 'X'
+# 99.70 ; 19.10 ; 'C'
+#118.70 ; 19.10 ; 'V'
+#137.70 ; 19.10 ; 'B'
+#156.70 ; 19.10 ; 'N'
+#175.70 ; 19.10 ; 'M'
+#194.70 ; 19.10 ; '.'
+#225.55 ; 19.10 ; 'CAPS SHIFT'
+
+#  0.00 ;  0.00 ; 'SYMBOL SHIFT'
+# 19.00 ;  0.00 ; ';'
+# 38.00 ;  0.00 ; '\''
+# 57.00 ;  0.00 ; 'LEFT'
+# 76.00 ;  0.00 ; 'RIGHT'
+#128.25 ;  0.00 ; 'SPACE'
+#180.50 ;  0.00 ; 'UP'
+#199.50 ;  0.00 ; 'DOWN'
+#218.50 ;  0.00 ; ','
+#237.50 ;  0.00 ; 'SYMBOL SHIFT'
